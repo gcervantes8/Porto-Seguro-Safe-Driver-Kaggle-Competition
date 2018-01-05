@@ -91,7 +91,7 @@ We used an ensemble technique for our final submission.
 
 We learned that ensembling multiple models is usually helpful for Kaggle competitions like this, it helped improve our score.
 
-Our final results for the competition was:
+### Final results for competition
 
 0.27427 for the public leaderboard
 
@@ -101,7 +101,9 @@ This put us at 3,158th place
 
 These results were the best we got before the competition ended, they did not use the ensemble technique.
 
-After the competition ended we got better results.
+### After competition ended
+
+After the competition ended we were able to get better results.
 
 0.27668 for the public leaderboard
 
