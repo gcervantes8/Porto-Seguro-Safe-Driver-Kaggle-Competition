@@ -63,7 +63,7 @@ The results from AUC gave similar results to that of binary cross entropy but sl
 ### To handle missing values
 
 We initially replaced the missing values with the mean of that feature.  We later stopped doing this and found better results at leaving the values as -1 before normalization.  
-We believe that the nerual network learns that those values are missing.
+We believe that the nerual network learned that those values are missing.
 
 
 ### Technique we couldn't use
@@ -94,12 +94,17 @@ We learned that ensembling multiple models is usually helpful for Kaggle competi
 Our final results for the competition was:
 
 0.27427 for the public leaderboard
+
 0.27970 for the private leaderboard
 
-These results were the best we got before the competition ended, they did not ensemble.
+This put us at 3,158th place
+
+These results were the best we got before the competition ended, they did not use the ensemble technique.
 
 After the competition ended we got better results.
+
 0.27668 for the public leaderboard
+
 0.28085 for the private leaderboard
 
 
