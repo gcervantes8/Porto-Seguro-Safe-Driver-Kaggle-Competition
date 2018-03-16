@@ -49,7 +49,7 @@ We added weight initalization of HE_Uniform and batch normalization, they did no
 
 #### Data upscaling
 
-To handle the data imbalance we tried to upscale the data.  This duplicated the samples of our data that filed an insurance claim (We had much more sampled in the data that didn't file an insuranc claim).
+To handle the data imbalance we tried to upscale the data.  This duplicated the samples of our data that filed an insurance claim (We had much more sampled in the data that didn't file an insurance claim).
 This technique ultimately did not end up helping us as we got worse results.
 
 #### AUC loss function (high batch size)
